@@ -1,0 +1,15 @@
+--- 
+- name: My second play
+  hosts: localhost
+  tasks:
+    - name: task1 # add group
+      group:
+        name: amy
+        gid: 2500
+
+    - name: Task2 add user amy
+      user:
+        name: amy
+        uid: 2500
+        group: amy
+
