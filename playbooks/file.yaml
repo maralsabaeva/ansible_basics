@@ -1,0 +1,13 @@
+---
+- name: My  creating files plybook
+  hosts: localhost
+  tasks: 
+    - name: task1 touch file1
+      file:
+        path: /tmp/file1
+        state: touch
+        mode: u+x,g+wx
+    - name: task2 touch file2
+      file:
+        path: /tmp/file2
+        state: touch   

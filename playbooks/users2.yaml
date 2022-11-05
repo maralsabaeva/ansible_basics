@@ -1,0 +1,11 @@
+---
+- name: Creat new users
+  hosts: localhost
+  tasks: 
+    - name: taks 1 add bob
+      user:
+        name: bob
+
+    - name: task2 add  sam
+      user:
+        name: sam
