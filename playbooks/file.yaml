@@ -11,3 +11,4 @@
       file:
         path: /tmp/file2
         state: touch   
+        mode: u+x,g+wx
