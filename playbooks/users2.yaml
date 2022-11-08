@@ -1,6 +1,6 @@
 ---
 - name: Creat new users
-  hosts: localhost
+  hosts: all
   tasks: 
     - name: taks 1 add bob
       user:

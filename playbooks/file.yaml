@@ -1,6 +1,6 @@
 ---
 - name: My  creating files plybook
-  hosts: localhost
+  hosts: all
   tasks: 
     - name: task1 touch file1
       file:
